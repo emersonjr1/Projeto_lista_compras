@@ -1,0 +1,39 @@
+#inQtd{
+    padding: 4px;
+    width: 50px;
+    margin-left: 200px; 
+}
+#inPreco{
+   padding: 4px;
+    width: 50px; 
+}
+
+.inpt{
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  body, html {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .container-fluid {
+    padding: 0 5px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col-sm-4, .col-sm-8, .col-sm-3, .col-sm-9 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 10px;
+  }
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  input, button {
+    width: 100% !important;
+    margin-bottom: 8px;
+  }
+}
