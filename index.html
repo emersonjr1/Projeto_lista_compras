@@ -65,8 +65,8 @@
                 let mensagem = "--------Produto--------<br>"
                 let listagem = ""
                 for(let i = 0; i < produtos.length; i++){
-                    listagem += `- ${produtos[i]} <input type="number" id="inQtd${i}" class="inpt" min="1" value="1" style="width:70px">
-                    <input type="number" id="inPreco${i}" min="0.01" class="inpt" step="0.01" value="0" style="width:90px"><br>`
+                    listagem += `- ${produtos[i]} Qtd: <input type="number" id="inQtd${i}" class="inpt" min="1" value="1" style="width:70px">
+                    R$: <input type="number" id="inPreco${i}" min="0.01" class="inpt" step="0.01" value="0" style="width:90px"><br>`
                 }
                 lista.innerHTML = mensagem + listagem
             }
